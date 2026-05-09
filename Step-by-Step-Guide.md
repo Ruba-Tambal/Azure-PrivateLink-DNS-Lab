@@ -129,33 +129,10 @@ Inside the DNS zone:
 ### STEP 14 — Testing
 
 #### Test 1: Public DNS Test
-- Open your browser and go to: **`your URL`**
+- Open your browser and go to: **`http://app.ruba-demo.com`**
 - **Expected**: Page should load (if VM has Public IP)
 
 #### Test 2: Private DNS Resolution
 On `vm-app`, run:
 ```powershell
 nslookup rubaprivatestorage.blob.core.windows.net
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TestExpected ResultPublic DNSWebsite loadsPrivate DNS ResolutionReturns Private IP (10.2.1.x)Private Link ConnectivityTcpTestSucceeded : True
-Lab Completed Successfully! 🎉
