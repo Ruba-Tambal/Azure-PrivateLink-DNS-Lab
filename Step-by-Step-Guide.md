@@ -126,7 +126,7 @@ Private DNS zone: privatelink.blob.core.windows.net
 
 Review + Create
 
-STEP 13 — Disable Public Access
+STEP 13 — Disable Public Access(Only accessible via Private Endpoint)
 
 Go to Storage Account → Networking
 Set Public network access to Disabled
@@ -140,3 +140,10 @@ command line: Test-NetConnection rubaprivatestorage.blob.core.windows.net -Port 
 result Success Criteria:
 nslookup returns Private IP (10.2.1.x)
 TcpTestSucceeded : True
+Test 3: Private Link Connectivity Test
+PowerShell``Test-NetConnection rubaprivatestorage.blob.core.windows.net -Port 443
+Expected Output:
+TcpTestSucceeded : True
+
+
+
