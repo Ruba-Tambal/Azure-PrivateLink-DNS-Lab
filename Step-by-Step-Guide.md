@@ -133,7 +133,6 @@ Set Public network access to Disabled
 Save
 
 STEP 14 — Testing
-
 Test 1: Open browser →test DNS
 Test 2: On vm-app run:PowerShell
 command line: Test-NetConnection rubaprivatestorage.blob.core.windows.net -Port 443
@@ -141,7 +140,7 @@ result Success Criteria:
 nslookup returns Private IP (10.2.1.x)
 TcpTestSucceeded : True
 Test 3: Private Link Connectivity Test
-PowerShell``Test-NetConnection rubaprivatestorage.blob.core.windows.net -Port 443
+Test-NetConnection rubaprivatestorage.blob.core.windows.net -Port 443
 Expected Output:
 TcpTestSucceeded : True
 
