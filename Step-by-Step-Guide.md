@@ -129,7 +129,7 @@ Inside the DNS zone:
 ### STEP 14 — Testing
 
 #### Test 1: Public DNS Test
-- Open your browser and go to: **`http://app.ruba-demo.com`**
+- Open your browser and go to: **`you URL`**
 - **Expected**: Page should load (if VM has Public IP)
 
 #### Test 2: Private DNS Resolution
