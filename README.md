@@ -1,6 +1,4 @@
-Azure Private Connectivity & DNS Lab
-
-**Advanced Azure Networking Lab** – Secure access to Azure Storage using Private Link, Private DNS, and Service Endpoint.
+Advanced Azure Networking Lab** – Secure access to Azure Storage using Private Link, Private DNS, and Service Endpoint.
 
 🎯 Scenario
 A company wants to store files securely with limited public exposure and secure internal access only from inside the VNet.
