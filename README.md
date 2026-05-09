@@ -1,7 +1,4 @@
-Project 2: Azure Private Connectivity & DNS Lab
-
-![Azure](https://img.shields.io/badge/Azure-Private%20Link-blue?style=for-the-badge&logo=microsoftazure)
-![AZ-104](https://img.shields.io/badge/AZ--104-Hands--on-orange?style=for-the-badge)
+Azure Private Connectivity & DNS Lab
 
 **Advanced Azure Networking Lab** – Secure access to Azure Storage using Private Link, Private DNS, and Service Endpoint.
 
