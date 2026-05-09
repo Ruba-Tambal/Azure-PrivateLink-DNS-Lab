@@ -136,13 +136,6 @@ Inside the DNS zone:
 On `vm-app`, run:
 ```powershell
 nslookup rubaprivatestorage.blob.core.windows.net
-Expected: Returns Private IP (e.g., 10.2.1.5)
-Test 3: Private Link Connectivity Test
-On vm-app, run:
-PowerShellTest-NetConnection rubaprivatestorage.blob.core.windows.net -Port 443
-Expected: TcpTestSucceeded : True
-
-✅ Success Criteria
 
 
 
