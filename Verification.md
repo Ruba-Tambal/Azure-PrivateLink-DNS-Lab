@@ -3,7 +3,7 @@
 ## ✅ Test Results
 
 ### 1. Public DNS Test
-- **URL**: `your URL`
+- **URL**: `your custom domain`
 - **Status**: Working (if Public IP is assigned to the VM)
 
 ### 2. Private DNS Resolution
