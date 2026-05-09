@@ -7,7 +7,7 @@ A company wants to host files in Azure Storage with limited public exposure and 
 
 ## 🏗️ Architecture
 
-![Architecture](../diagrams/architecture.png)
+![Architecture](./diagrams/architecture.png)
 
 ---
 
