@@ -3,7 +3,7 @@ Verification & Testing
  ✅ Test Results
 
  1. Public DNS Test
-- **URL**: `http://app.ruba-demo.com`
+- **URL**: `your URL`
 - **Status**: Working (if Public IP is assigned to the VM)
 
 2. Private DNS Resolution
